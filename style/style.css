@@ -1,0 +1,93 @@
+/* Common style */
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+
+/* banner section */
+
+header{
+    max-width: 1600px;
+    height: 800px;
+    margin: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    
+}
+
+.welcome{
+    max-width: 800px;
+    margin: auto;
+    padding-top:180px ;
+}
+
+.banner-welcome{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    /* padding: 177px 531px 383px 538px; */
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 112px;
+    font-weight: 900;
+    padding-bottom: 36px;
+}
+
+/* Off section */
+
+.off-div-1{
+    max-width: 600px;
+    margin: auto;
+}
+
+.off-title{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.off-div-2{
+    max-width: 600px;
+    margin: auto;
+}
+
+.off-description{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.off-div-3{
+    max-width: 600px;
+    margin: auto;
+}
+
+.off-title-image{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.image-off{
+    max-width: 802.9px;
+    height: 500px;
+    margin: auto;
+}
+
+/* welcome to mid night section */
