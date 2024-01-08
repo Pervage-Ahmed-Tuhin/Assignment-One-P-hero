@@ -284,71 +284,101 @@ header{
 }
 /* holidays section */
 
-.holiday-section{
-    width: 1600px;
-    height: 735px;
+.holiday{
+    margin-bottom: 130px;
+}
+
+.title{
+    width: 800px;
     margin: auto;
-}
-
-
-.holiday-image-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 60px;
-
-}
-
-.holiday-box1{
+    padding-top:80px ;
     text-align: center;
 }
 
-.box1-title{
+
+.gap{
+    margin-top: 130px;
+}
+
+.main-container{
+    
+    max-width: 800px;
+    margin: auto;
+
+    display: flex;
+    
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.title-small{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
+    font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: 16px;
+
 }
 
-
-.box1-title-2{
+.title-big{
     color: #070211;
+    text-align: center;
     font-family: Merriweather;
-    font-size: 92px;
+    font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-}
+  }
 
-.holiday-span{
+.big-span{
     color: #F00;
-}
+}  
 
-.box1-description{
+
+.description{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
+    font-style: normal;
     font-weight: 500;
     line-height: 32px; 
-    padding-bottom: 30px;
 }
 
-.banner-holiday{
-    text-align: center;
-    max-width: 1320px;
-    height: 229px;
+.image-contianer{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.sub1{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    bottom: 50px;
+}
+
+.main-image-box{
+    max-width: 1450px;
     margin: auto;
-    flex-shrink: 0;
-    border-radius: 16px 0px 16px 16px;
-    background: #F00;
-
 }
 
-.percentage{
-    position: right;
+.image-contianer-2{
+    height: 229px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box-gift{
+    width: 700px;
+    position: absolute;
+
+    bottom: 46px;
+    left: 45px;
 }
 
 
@@ -542,4 +572,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.f-t-logo{
+   margin-top: 2px;
 }
