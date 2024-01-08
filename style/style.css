@@ -388,8 +388,8 @@ header{
     /* width: 900px;
     margin: auto; */
     display: flex;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 15px;
     align-items: center;
 }
 
@@ -402,8 +402,8 @@ header{
     /* width: 900px;
     margin: auto; */
     display: flex;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 15px;
     align-items: center;
 }
 
