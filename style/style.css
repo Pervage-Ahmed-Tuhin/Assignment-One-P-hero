@@ -385,11 +385,11 @@ header{
 /* gift section */
 
 .picture-box1-container{
-    width: 800px;
-    margin: auto;
+    /* width: 900px;
+    margin: auto; */
     display: flex;
     justify-content: space-around;
-    gap: 35px;
+    gap: 25px;
     align-items: center;
 }
 
@@ -399,11 +399,11 @@ header{
 }
 
 .picture-box2-container{
-    width: 800px;
-    margin: auto;
+    /* width: 900px;
+    margin: auto; */
     display: flex;
     justify-content: space-around;
-    gap: 35px;
+    gap: 25px;
     align-items: center;
 }
 
@@ -439,8 +439,10 @@ header{
     line-height: 32px;
 }
 
-.gift-first-box{
-    padding-left: 380px;
+
+.gift-section{
+    max-width: 1450px;
+    margin: auto;
 }
 
 /* subscribe section */
