@@ -386,6 +386,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    bottom: 35px;
 }
 
 .box-gift{
