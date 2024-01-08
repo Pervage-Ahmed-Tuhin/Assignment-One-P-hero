@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Merriweather', serif;
+  
 }
 
 
@@ -146,6 +147,12 @@ header{
     line-height: 30px; 
 }
 
+
+.btn-midnight:hover{
+   background-color: #333;
+}
+
+
 .btn-midnight{
     color: #FFF;
     font-family: Inter;
@@ -200,9 +207,11 @@ header{
 .button-join{
     text-align: center;
     
+    
 }
 
 .btn-join{
+    width: 167px;
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -214,6 +223,8 @@ header{
     background: #F00;
 }
 
+
+
 .btn-span{
     color: #FFF;
     text-align: center;
@@ -223,6 +234,10 @@ header{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.btn-join:hover{
+    background-color: rgb(231, 169, 169);
 }
 
 /* best offer section */
@@ -512,6 +527,10 @@ placeholder{
     border: none;
     color: white;
     font-size: 18px;
+}
+
+ .subscribe-form>button:hover{
+    background-color: orangered;
 }
 
 /* footer section */
